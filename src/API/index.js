@@ -9,7 +9,6 @@ export const getPosts = async (
 	limit = 6
 ) => {
 	try {
-		console.log(page, "strona");
 		// http://localhost:3004/posts
 		// ?page=1&_limit=3&_order=desc&_sort=id
 
@@ -57,5 +56,14 @@ export const addNewsLetter = async (data) => {
 		}
 	} catch (err) {
 		throw err;
+	}
+};
+
+export const getPostById = async (id) => {
+	try {
+		const response = await axios.get(`${URL_SERV}/posts/${id}`);
+		return response.data;
+	} catch (err) {
+		throw "404";
 	}
 };
