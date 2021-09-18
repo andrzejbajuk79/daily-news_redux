@@ -202,9 +202,10 @@
     }
   ],
   "newsletter": [
-    
+    {
+      "email": "sssasa@dd.sdss",
+      "id": 1
+    }
   ],
-  "contact": [
-    
-  ]
+  "contact": []
 }

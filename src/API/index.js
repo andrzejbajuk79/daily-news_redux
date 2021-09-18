@@ -29,3 +29,33 @@ export const getPosts = async (
 		throw err;
 	}
 };
+
+export const addNewsLetter = async (data) => {
+	try {
+		const findUser = await axios.get(
+			`${URL_SERV}/newsletter?email=${data.email}`
+		);
+		if (!Array.isArray(findUser.data) || !findUser.data.length) {
+			// add user
+			const response = await axios({
+				method: "POST",
+				url: `${URL_SERV}/newsletter`,
+				data: {
+					email: data.email,
+				},
+			});
+
+			return {
+				newsletter: "added",
+				email: response.data,
+			};
+		} else {
+			//already exist
+			return {
+				newsletter: "failed",
+			};
+		}
+	} catch (err) {
+		throw err;
+	}
+};
