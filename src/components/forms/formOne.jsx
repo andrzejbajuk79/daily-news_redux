@@ -1,6 +1,6 @@
 import React from "react";
 import { Formik } from "formik";
-import { initialValues1 } from "./InitialValues";
+import { initialValues1 } from "./helpers/InitialValues";
 import * as Yup from "yup";
 
 const FormOne = () => {

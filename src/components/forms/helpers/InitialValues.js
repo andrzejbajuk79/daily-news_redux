@@ -11,4 +11,12 @@ export const youtubeInitialValues = {
 	name: "",
 	email: "",
 	channel: "",
+	comments: "",
+	address: "",
+	social: {
+		facebook: "",
+		twitter: "",
+	},
+	phoneNumbers: ["", ""],
+	phNumbers: [""],
 };

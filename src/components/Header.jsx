@@ -27,16 +27,7 @@ const Header = () => {
 						<Nav.Link>Form1</Nav.Link>
 					</LinkContainer>
 				</Nav.Item>
-				<Nav.Item>
-					<LinkContainer to='/form2'>
-						<Nav.Link>Form2</Nav.Link>
-					</LinkContainer>
-				</Nav.Item>
-				<Nav.Item>
-					<LinkContainer to='/form3'>
-						<Nav.Link>Form3</Nav.Link>
-					</LinkContainer>
-				</Nav.Item>
+
 				<Nav.Item>
 					<LinkContainer to='/reducer'>
 						<Nav.Link>Reducer</Nav.Link>
