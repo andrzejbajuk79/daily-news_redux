@@ -37,6 +37,11 @@ const Header = () => {
 						<Nav.Link>Form3</Nav.Link>
 					</LinkContainer>
 				</Nav.Item>
+				<Nav.Item>
+					<LinkContainer to='/reducer'>
+						<Nav.Link>Reducer</Nav.Link>
+					</LinkContainer>
+				</Nav.Item>
 			</Nav>
 		</>
 	);
