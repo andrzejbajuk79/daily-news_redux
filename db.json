@@ -201,11 +201,35 @@
       "createdAt": "2020-07-22T12:59-0500"
     }
   ],
-  "newsletter": [
+  "newsletter": [],
+  "contact": [
     {
-      "email": "ptasiek@gmail.com",
+      "firstname": "andrze",
+      "lastname": "erwre",
+      "email": "ptasiek@yahoo.com",
+      "message": "rerererere",
       "id": 1
+    },
+    {
+      "firstname": "andrze",
+      "lastname": "erwre",
+      "email": "ptasiek@yahoo.com",
+      "message": "rerererere",
+      "id": 2
+    },
+    {
+      "firstname": "andrze",
+      "lastname": "erwre",
+      "email": "ptasiek@yahoo.com",
+      "message": "rerererere",
+      "id": 3
+    },
+    {
+      "firstname": "andrze",
+      "lastname": "erwre",
+      "email": "ptasiek@yahoo.com",
+      "message": "rerererere",
+      "id": 4
     }
-  ],
-  "contact": []
+  ]
 }

@@ -5,6 +5,7 @@ import {
 	CLEAR_POST_BY_ID,
 	GET_POSTS,
 	GET_POST_BY_ID,
+	SEND_MESSAGE,
 } from "../types";
 // /////////////////////////////////////////////////////////////
 //                    POSTS
@@ -25,6 +26,12 @@ export const clearPostById = (id) => {
 	return {
 		type: CLEAR_POST_BY_ID, //
 		payload: {},
+	};
+};
+export const sendMessage = (data) => {
+	return {
+		type: SEND_MESSAGE, //
+		payload: api.sendMessage(data),
 	};
 };
 
