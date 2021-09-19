@@ -6,3 +6,9 @@ export const initialValues1 = {
 	state: "",
 	zip: "",
 };
+
+export const youtubeInitialValues = {
+	name: "",
+	email: "",
+	channel: "",
+};

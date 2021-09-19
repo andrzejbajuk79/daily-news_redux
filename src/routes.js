@@ -4,6 +4,7 @@ import Contacts from "./components/contacts/Contacts";
 import FormOne from "./components/forms/formOne";
 import FormThree from "./components/forms/formThree";
 import FormTwo from "./components/forms/formtwo";
+import YoutubeForm from "./components/forms/YoutubeForm";
 import Header from "./components/Header";
 import Home from "./components/home/Home";
 import Post from "./components/posts/Post";
@@ -19,6 +20,7 @@ const routes = () => {
 					<Route path='/form1' component={FormOne} />
 					<Route path='/form2' component={FormTwo} />
 					<Route path='/form3' component={FormThree} />
+					<Route path='/youtube_form' component={YoutubeForm} />
 					<Route path='/contact' component={Contacts} />
 					<Route path='/reducer' component={Reducer} />
 					<Route path='/article/:id' component={Post} />

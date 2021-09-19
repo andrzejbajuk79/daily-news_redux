@@ -42,6 +42,11 @@ const Header = () => {
 						<Nav.Link>Reducer</Nav.Link>
 					</LinkContainer>
 				</Nav.Item>
+				<Nav.Item>
+					<LinkContainer to='/youtube_form'>
+						<Nav.Link>Youtube Form</Nav.Link>
+					</LinkContainer>
+				</Nav.Item>
 			</Nav>
 		</>
 	);
