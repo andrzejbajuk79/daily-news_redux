@@ -35,3 +35,13 @@ export const youtubeValidate = (values) => {
 	// console.log("bledy", errors);
 	return errors;
 };
+export const reusFormValidate = Yup.object({
+	email: Yup.string()
+		.required("Sorry the email is required")
+		.email("This is not a valid email"),
+	comments: Yup.string()
+		.required("Sorry yo to say samething")
+		.max(500, "Sorry the message is too long"),
+	selectOption: Yup.string().required("Sorry you have to choose"),
+	radioOption: Yup.string().required("Sorry you have to choose"),
+});

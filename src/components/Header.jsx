@@ -38,6 +38,16 @@ const Header = () => {
 						<Nav.Link>Youtube Form</Nav.Link>
 					</LinkContainer>
 				</Nav.Item>
+				<Nav.Item>
+					<LinkContainer to='/form0'>
+						<Nav.Link>Array Form</Nav.Link>
+					</LinkContainer>
+				</Nav.Item>
+				<Nav.Item>
+					<LinkContainer to='/reus_form'>
+						<Nav.Link>Reus Form</Nav.Link>
+					</LinkContainer>
+				</Nav.Item>
 			</Nav>
 		</>
 	);
